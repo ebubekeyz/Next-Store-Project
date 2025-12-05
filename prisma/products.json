@@ -1,0 +1,10 @@
+[{"name":"Organic Granola Cereal","company":"Lazz","description":"Crunchy granola made with organic oats","featured":false,"image":"http://dummyimage.com/106x100.png/5fa2dd/ffffff","price":5.99},
+{"name":"Banana Peanut Butter Smoothie","company":"Oyonder","description":"Frozen smoothie mix with bananas and peanut butter for a quick drink.","featured":false,"image":"http://dummyimage.com/158x100.png/cc0000/ffffff","price":5.49},
+{"name":"Mango Chilli Sauce","company":"Zoomcast","description":"A sweet and spicy sauce for dipping or glazing.","featured":true,"image":"http://dummyimage.com/100x100.png/ff4444/ffffff","price":3.99},
+{"name":"Cherry Almond Protein Bar","company":"Vinder","description":"Nutritious protein bar with cherry and almond flavor, great for on-the-go.","featured":false,"image":"http://dummyimage.com/168x100.png/ff4444/ffffff","price":1.99},
+{"name":"Paint By Numbers Kit","company":"Vinte","description":"Relaxing paint kit with pre-printed canvas for painting.","featured":false,"image":"http://dummyimage.com/119x100.png/dddddd/000000","price":24.99},
+{"name":"Frozen Spinach","company":"Gigashots","description":"Chopped and frozen spinach, ideal for cooking and smoothies.","featured":false,"image":"http://dummyimage.com/209x100.png/ff4444/ffffff","price":1.99},
+{"name":"Honey Mustard Chicken Breasts","company":"Teklist","description":"Marinated chicken breasts coated in a sweet honey mustard glaze.","featured":true,"image":"http://dummyimage.com/201x100.png/5fa2dd/ffffff","price":8.99},
+{"name":"Foot Massager","company":"Topicblab","description":"Electric foot massager with heat settings.","featured":false,"image":"http://dummyimage.com/216x100.png/dddddd/000000","price":79.99},
+{"name":"Athletic Jogging Jacket","company":"Wordify","description":"Designed for comfort and performance during workouts.","featured":true,"image":"http://dummyimage.com/144x100.png/5fa2dd/ffffff","price":49.99},
+{"name":"Baking Soda","company":"Kaymbo","description":"Essential ingredient for baking and cooking.","featured":false,"image":"http://dummyimage.com/244x100.png/cc0000/ffffff","price":0.99}]
