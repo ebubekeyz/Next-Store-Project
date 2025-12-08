@@ -1,10 +1,82 @@
-[{"name":"Organic Granola Cereal","company":"Lazz","description":"Crunchy granola made with organic oats","featured":false,"image":"http://dummyimage.com/106x100.png/5fa2dd/ffffff","price":5.99},
-{"name":"Banana Peanut Butter Smoothie","company":"Oyonder","description":"Frozen smoothie mix with bananas and peanut butter for a quick drink.","featured":false,"image":"http://dummyimage.com/158x100.png/cc0000/ffffff","price":5.49},
-{"name":"Mango Chilli Sauce","company":"Zoomcast","description":"A sweet and spicy sauce for dipping or glazing.","featured":true,"image":"http://dummyimage.com/100x100.png/ff4444/ffffff","price":3.99},
-{"name":"Cherry Almond Protein Bar","company":"Vinder","description":"Nutritious protein bar with cherry and almond flavor, great for on-the-go.","featured":false,"image":"http://dummyimage.com/168x100.png/ff4444/ffffff","price":1.99},
-{"name":"Paint By Numbers Kit","company":"Vinte","description":"Relaxing paint kit with pre-printed canvas for painting.","featured":false,"image":"http://dummyimage.com/119x100.png/dddddd/000000","price":24.99},
-{"name":"Frozen Spinach","company":"Gigashots","description":"Chopped and frozen spinach, ideal for cooking and smoothies.","featured":false,"image":"http://dummyimage.com/209x100.png/ff4444/ffffff","price":1.99},
-{"name":"Honey Mustard Chicken Breasts","company":"Teklist","description":"Marinated chicken breasts coated in a sweet honey mustard glaze.","featured":true,"image":"http://dummyimage.com/201x100.png/5fa2dd/ffffff","price":8.99},
-{"name":"Foot Massager","company":"Topicblab","description":"Electric foot massager with heat settings.","featured":false,"image":"http://dummyimage.com/216x100.png/dddddd/000000","price":79.99},
-{"name":"Athletic Jogging Jacket","company":"Wordify","description":"Designed for comfort and performance during workouts.","featured":true,"image":"http://dummyimage.com/144x100.png/5fa2dd/ffffff","price":49.99},
-{"name":"Baking Soda","company":"Kaymbo","description":"Essential ingredient for baking and cooking.","featured":false,"image":"http://dummyimage.com/244x100.png/cc0000/ffffff","price":0.99}]
+[
+  {
+    "name": "Organic Granola Cereal",
+    "company": "Lazz",
+    "description": "Crunchy granola made with organic oats",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg",
+    "price": 5.99
+  },
+  {
+    "name": "Banana Peanut Butter Smoothie",
+    "company": "Oyonder",
+    "description": "Frozen smoothie mix with bananas and peanut butter for a quick drink.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg",
+    "price": 5.49
+  },
+  {
+    "name": "Mango Chilli Sauce",
+    "company": "Zoomcast",
+    "description": "A sweet and spicy sauce for dipping or glazing.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg",
+    "price": 3.99
+  },
+  {
+    "name": "Cherry Almond Protein Bar",
+    "company": "Vinder",
+    "description": "Nutritious protein bar with cherry and almond flavor, great for on-the-go.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/276566/pexels-photo-276566.jpeg",
+    "price": 1.99
+  },
+  {
+    "name": "Paint By Numbers Kit",
+    "company": "Vinte",
+    "description": "Relaxing paint kit with pre-printed canvas for painting.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg",
+    "price": 24.99
+  },
+  {
+    "name": "Frozen Spinach",
+    "company": "Gigashots",
+    "description": "Chopped and frozen spinach, ideal for cooking and smoothies.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/298842/pexels-photo-298842.jpeg",
+    "price": 1.99
+  },
+  {
+    "name": "Honey Mustard Chicken Breasts",
+    "company": "Teklist",
+    "description": "Marinated chicken breasts coated in a sweet honey mustard glaze.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+    "price": 8.99
+  },
+  {
+    "name": "Foot Massager",
+    "company": "Topicblab",
+    "description": "Electric foot massager with heat settings.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg",
+    "price": 79.99
+  },
+  {
+    "name": "Athletic Jogging Jacket",
+    "company": "Wordify",
+    "description": "Designed for comfort and performance during workouts.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg",
+    "price": 49.99
+  },
+  {
+    "name": "Baking Soda",
+    "company": "Kaymbo",
+    "description": "Essential ingredient for baking and cooking.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg",
+    "price": 0.99
+  }
+]
