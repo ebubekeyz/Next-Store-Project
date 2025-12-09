@@ -1,11 +1,20 @@
-import { fetchAdminProductDetails, updateProductAction } from "@/utils/actions";
+import {
+  fetchAdminProductDetails,
+  updateProductAction,
+  updateProductImageAction,
+} from "@/utils/actions";
 import FormContainer from "@/components/form/FormContainer";
 import FormInput from "@/components/form/FormInput";
 import PriceInput from "@/components/form/PriceInput";
 import TextAreaInput from "@/components/form/TextAreaInput";
 import { SubmitButton } from "@/components/form/Buttons";
 import CheckboxInput from "@/components/form/CheckboxInput";
-async function EditProductPage({ params }: { params: Promise<{ id: string }> }) {
+import ImageInputContainer from "@/components/form/ImageInputContainer";
+async function EditProductPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
   const { id } = await params;
   const product = await fetchAdminProductDetails(id);
   const { name, company, description, featured, price } = product;
@@ -15,16 +24,15 @@ async function EditProductPage({ params }: { params: Promise<{ id: string }> }) 
       <div className="border p-8 rounded-md">
         {/* Image Input Container */}
         <ImageInputContainer
-      action={updateProductImageAction}
-      name={name}
-      image={product.image}
-      text="update image"
-    >
-      <input type="hidden" name="id" value={id} />
-      <input type="hidden" name="url" value={product.image} />
-    </ImageInputContainer>
+          action={updateProductImageAction}
+          name={name}
+          image={product.image}
+          text="update image"
+        >
+          <input type="hidden" name="id" value={id} />
+          <input type="hidden" name="url" value={product.image} />
+        </ImageInputContainer>
 
-    
         <FormContainer action={updateProductAction}>
           <div className="grid gap-4 md:grid-cols-2 my-4">
             <input type="hidden" name="id" value={id} />
@@ -62,5 +70,3 @@ async function EditProductPage({ params }: { params: Promise<{ id: string }> }) 
   );
 }
 export default EditProductPage;
-
-
