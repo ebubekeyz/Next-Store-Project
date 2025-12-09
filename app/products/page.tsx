@@ -1,6 +1,6 @@
 import ProductsContainer from "@/components/products/ProductsContainer";
 
-async function ProductsPage({
+function ProductsPage({
   searchParams,
 }: {
   searchParams: { layout?: string; search?: string };
