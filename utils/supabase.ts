@@ -1,6 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 
-const bucket = "your-bucket-name";
+const bucket = "Store";
 
 // Create a single supabase client for interacting with your database
 export const supabase = createClient(
@@ -21,7 +21,6 @@ export const uploadImage = async (image: File) => {
   if (!data) throw new Error("Image upload failed");
   return supabase.storage.from(bucket).getPublicUrl(newName).data.publicUrl;
 };
-
 
 export const deleteImage = (url: string) => {
   const imageName = url.split("/").pop();
