@@ -42,7 +42,6 @@ export function SubmitButton({
   );
 }
 
-
 type actionType = "edit" | "delete";
 export const IconButton = ({ actionType }: { actionType: actionType }) => {
   const { pending } = useFormStatus();
@@ -50,7 +49,7 @@ export const IconButton = ({ actionType }: { actionType: actionType }) => {
   const renderIcon = () => {
     switch (actionType) {
       case "edit":
-        return <LuPenSquare />;
+        return <LuPen />;
       case "delete":
         return <LuTrash2 />;
       default:
@@ -104,5 +103,15 @@ export const CardSubmitButton = ({ isFavorite }: { isFavorite: boolean }) => {
         <FaRegHeart />
       )}
     </Button>
+  );
+};
+
+export const ProductSignInButton = () => {
+  return (
+    <SignInButton mode="modal">
+      <Button type="button" size="default" className="mt-8">
+        Please Sign In
+      </Button>
+    </SignInButton>
   );
 };
